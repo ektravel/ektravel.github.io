@@ -7,8 +7,15 @@ p {
     line-height: 2;
     /* font-family: Arial, Helvetica, sans-serif; */
 }
+#innerParentHeader
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 header {
     height: 80px;
+    width: 100%;
     background-color: #ffffff;
     /* padding:20; */
     border-bottom-style: solid;
@@ -24,7 +31,7 @@ header {
     top: 0px;
     padding: 25px 10px; 
     text-align: center;
-    margin-left: 75px;
+    /* margin-left: 75px; */
     color: #ffffff;
     float: left;
 }
@@ -81,9 +88,10 @@ h2{
 #navigation{
     list-style-type: none;
     margin: 0;
-    padding: 27px;
+    padding: 15px 0px 15px 0px;
     overflow: hidden; 
-    right: 75px;
+    /* padding: 27px; */ 
+    /* right: 75px; */
 }
 /* li :after {
     content: "|";
