@@ -20,13 +20,23 @@
             <div id="container">    
                 <div id="innerSection">
                     <h2 id="aboutMeTitle">Contact</h2>
-                    <form>
-                        Name<br>
-                        <input type="text" name="name"><br>
-                        Email<br>
-                        <input type="text" name="email"><br>
-                        Message<br>
-                        <input type="text" name="message"><br>
+                    <form class="formContact">
+                        <label for="nameInput">Name</label>
+                        <br>
+                        <input type="text" name="name" id="nameInput">
+
+                        <br><br>
+
+                        <label for="emailInput">Email</label><br>
+                        <input type="text" name="email" id="emailInput">
+
+                        <br><br>
+
+                        <label for="messageInput2">Message</label><br>
+                        <!-- <input type="text" name="message" id="messageInput" ><br> -->
+                        
+                        <textarea name="message" id="messageInput2" cols="30" rows="10"></textarea>
+
                         <input type="submit" value="Submit"> 
                     </form>
                 </div>
