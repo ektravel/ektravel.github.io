@@ -147,6 +147,8 @@ footer{
 }
 .portfolioImageContainer{
     position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 .portfolioImageText{
     position: absolute;
