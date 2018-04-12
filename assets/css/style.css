@@ -1,14 +1,13 @@
-/* *{
+*{
     box-sizing: border-box;
-} */
+} 
 p {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
     line-height: 2;
-    /* font-family: Arial, Helvetica, sans-serif; */
 }
 #innerParentHeader {
-    width: 1000px;
+    width: 960px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -16,7 +15,6 @@ header {
     height: 80px;
     width: 100%;
     background-color: #ffffff;
-    /* padding:20; */
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #cccccc; 
@@ -28,9 +26,8 @@ header {
     float: left;
     background:#4aaaa5;
     top: 0px;
-    padding: 25px 10px; 
+    padding: 23px 10px; 
     text-align: center;
-    /* margin-left: 75px; */
     color: #ffffff;
     float: left;
 }
@@ -38,9 +35,6 @@ body {
     padding: 0;
 }
 #container {
-    /* background-color: grey; */
-    /* background-image: url('assets/images/concrete_seamless.png'); */
-    /* background-image: url('..\images\concrete_seamless.png'); */
     background-image: url('../images/concrete_seamless.png');
     width: 100%;
     display: block;
@@ -85,20 +79,9 @@ h2 {
     margin: 0;
     padding: 15px 0px 15px 0px;
     overflow: hidden; 
-    /* padding: 27px; */ 
-    /* right: 75px; */
 }
-/* li :after {
-    content: "|";
-    padding: 0 10px 0 10px;   
-}
-li :last-child {
-    content: "";
-}  */
 li+li {
     border-right: 1px solid #777777;
-    /* content: "|";
-    padding: 0 10px 0 10px;    */
 }
 li {
     float: right;
@@ -108,6 +91,7 @@ li a {
     text-align: center;
     text-decoration: none;
     color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     padding: 16px;
 }
 footer {
