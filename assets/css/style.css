@@ -8,20 +8,20 @@ header {
     height: 100px;
     background-color: lightblue;
 }
-
 #heading {
     font-weight: bold;
     font-size: 36px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background: #4aaaa5;
     top: 0px;
-    /* left: 0; */
-    position: fixed;
+    /* left: 0; 
+    position:fixed; 
+    */
     padding: 31.5px 10px;
     text-align: center;
-    margin: 0px 20px;
+    margin-left: 75px;
     color: #ffffff;
-    left: 75px;
+    float: left;
 }
 body {
     padding: 0;
@@ -31,10 +31,14 @@ h1{
     margin-right: 10px;
 
 }
+#myPhoto {
+    width: 200px;
+    height: 200px;
+}
 #navigation{
     list-style-type: none;
     margin: 0;
-    padding: 40px;
+    padding: 27px;
     overflow: hidden; 
     right: 75px;
 }
