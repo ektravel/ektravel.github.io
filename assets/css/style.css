@@ -7,8 +7,7 @@ p {
     line-height: 2;
     /* font-family: Arial, Helvetica, sans-serif; */
 }
-#innerParentHeader
-{
+#innerParentHeader {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -47,45 +46,40 @@ body {
     display: block;
     padding-top: 30px;
     padding-bottom: 80px;
-
 }
-#innerSection {
-     
+#innerSection {    
     width: 960px;
     background-color: #ffffff;
     margin-left: auto;
     margin-right: auto; 
     padding: 20px;
 }
-h1{
+h1 {
     margin-left: 10px;
     margin-right: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
-h2{
+h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     font-size: 32px;
     font-weight: bold;
 }
-#aboutMeTitle{
+#aboutMeTitle {
     padding-bottom: 10px;
     margin-bottom: 20px;
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #cccccc;
 }
-
 #myPhoto {
     width: 200px;
     height: 200px;
     float: left; 
     padding-right: 20px;
     padding-bottom: 20px;
-
 }
-#navigation{
+#navigation {
     list-style-type: none;
     margin: 0;
     padding: 15px 0px 15px 0px;
@@ -95,19 +89,17 @@ h2{
 }
 /* li :after {
     content: "|";
-    padding: 0 10px 0 10px;
-    
+    padding: 0 10px 0 10px;   
 }
 li :last-child {
     content: "";
 }  */
-
-li+li{
+li+li {
     border-right: 1px solid #777777;
     /* content: "|";
     padding: 0 10px 0 10px;    */
 }
-li{
+li {
     float: right;
 }
 li a {
@@ -117,7 +109,7 @@ li a {
     color: #777777;
     padding: 16px;
 }
-footer{
+footer {
     position: sticky;
     text-align: center;
     padding: 15px;
@@ -131,7 +123,6 @@ footer{
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-
 .formContact > input[type="submit"]
 {
     color: #ffffff;
@@ -149,16 +140,16 @@ footer{
 {
     width: 100%;
 }
-.portfolioImage{
+.portfolioImage {
     width: 300px;
     height: auto;
 }
-.portfolioImageContainer{
+.portfolioImageContainer {
     position: relative;
     margin-right: 20px;
     margin-bottom: 20px;
 }
-.portfolioImageText{
+.portfolioImageText {
     position: absolute;
     bottom: 15px;
     font-size: 18px;
@@ -168,6 +159,5 @@ footer{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: #4aaaa5;
     width: 100%;
-    text-align: center;
-     
+    text-align: center;    
 }
