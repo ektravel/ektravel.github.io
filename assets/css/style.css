@@ -141,3 +141,7 @@ footer{
 {
     width: 100%;
 }
+.portfolioImage{
+    width: 300px;
+    height: auto;
+}
