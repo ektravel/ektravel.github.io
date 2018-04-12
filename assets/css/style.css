@@ -7,6 +7,11 @@ p {
 header {
     height: 100px;
     background-color: #ffffff;
+    /* padding:20; */
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc; 
+    
 }
 #heading {
     font-weight: bold;
@@ -27,22 +32,33 @@ body {
 #container {
     background-color: grey;
     width: 100%;
-    align-content: center;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 80px;
 
 }
 #innerSection {
     width: 960px;
     background-color: #f2f2f2;
+     margin-left: auto;
+    margin-right: auto; 
 }
 h1{
     margin-left: 10px;
     margin-right: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
 #myPhoto {
     width: 200px;
     height: 200px;
-    float: left; 
+    /* display: inline-block;
+    float: left; */
 
 }
 #navigation{
@@ -75,4 +91,10 @@ li a {
 footer{
     position: sticky;
     text-align: center;
+    padding: 10px;
+    background: #666666;
+    color: #ffffff;
+    border-top-style: solid;
+    border-top-width:7px;
+    border-top-color: #4aaaa5; 
 }
