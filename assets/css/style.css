@@ -67,8 +67,9 @@ h2{
 #myPhoto {
     width: 200px;
     height: 200px;
-    /* display: inline-block;
-    float: left; */
+    float: left; 
+    padding-right: 20px;
+    padding-bottom: 20px;
 
 }
 #navigation{
