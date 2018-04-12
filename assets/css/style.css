@@ -1,7 +1,60 @@
-
+*{
+    box-sizing: border-box;
+}
 p {
     color: #777777;
 }
 header {
+    height: 100px;
+    background-color: lightblue;
+}
+
+#heading {
+    font-weight: bold;
+    font-size: 36px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #4aaaa5;
+    top: 0px;
+    /* left: 0; */
+    position: fixed;
+    padding: 31.5px 10px;
+    text-align: center;
+    margin: 0px 20px;
+    color: #ffffff;
+    left: 75px;
+}
+body {
+    padding: 0;
+}
+h1{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+#navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+    overflow: hidden; 
+    right: 75px;
+}
+li :after {
+    content: "|";
+    padding: 0 10px 0 10px;
+    
+}
+li :last-child {
+    content: "";
+} 
+
+li{
+    float: right;
+    
+}
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #777777;
+    padding: 16px;
 }
